@@ -1,4 +1,6 @@
 .ball {
+  position: relative;
+  top: 300px;
   height: 50px;
   width: 50px;
   background: red;
@@ -6,8 +8,6 @@
   animation-name: bounce;
   animation-duration: 3s;
   animation-iteration-count: 1;
-  position: relative;
-  top: 300px;
 }
 
 @keyframes bounce {
@@ -20,4 +20,21 @@
   100% {
     top: 300px;
   }
+}
+
+.cta {
+  transition-property: background;
+  transition-duration: 2s;
+  width: auto;
+  padding: 0, 5rem 1rem;
+  background: #076871;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.cta:hover {
+  background: #bf0600;
 }
