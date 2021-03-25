@@ -22,14 +22,20 @@
   }
 }
 
+/* + add a tag to cta
++ product page: 1s delay, opacity*/
 .cta {
   transition-property: background;
   transition-duration: 2s;
+  position: relative;
+  display: inline-block;
+  left: 200px;
   width: auto;
-  padding: 0, 5rem 1rem;
+  padding: 1rem 2rem;
   background: #076871;
   border: 1px white solid;
   border-radius: 10px;
+  text-transform: capitalize;
   font-size: 1.2rem;
   font-family: "Lato", sans-serif;
   color: white;
