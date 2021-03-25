@@ -23,7 +23,7 @@
 }
 
 /* + add a tag to cta in html
-+ product page: 1s delay, opacity*/
++ on the Guitars page: animation: 1s delay, opacity*/
 .cta {
   transition-property: background;
   transition-duration: 2s;
